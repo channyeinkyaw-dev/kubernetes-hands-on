@@ -8,9 +8,5 @@ metadata:
 
 spec:
   containers:
-    - name: webapp
-      image: richardchesterwood/k8s-fleetman-webapp-angular:release0-5-arm64
-      resources:
-        limits:
-          memory: "128Mi"
-          cpu: "500m"
+  - name: webapp
+    image: richardchesterwood/k8s-fleetman-webapp-angular:release0-5-arm64
